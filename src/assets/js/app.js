@@ -24,4 +24,9 @@ $(document).ready(function () {
     })
   });
 
+
+  let containerWidth = document.querySelector('.container').offsetWidth
+  let windowWidth = window.innerWidth;
+  let a = Math.ceil(containerWidth/3 * 2 + (windowWidth - containerWidth)/2);
+  menu.style.width = `${a}px`
 })
