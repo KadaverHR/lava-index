@@ -1,0 +1,39 @@
+{% set title = "Пещера 2.0" %}
+{% set bodyClass = "is-main" %}
+
+{% extends "html/layouts/default.html" %}
+
+{% block content %}
+
+
+<section class="main">
+  <div class="container">
+
+    <div class="main__floor-box">
+      <h1 class="main__title">
+        Тыкни куда надо
+      </h1>
+
+      <div class="catalog">
+        <a class="catalog__menu-link" href="https://care-passing.kadaver.site/">Прохождение</a>
+
+        <a class="catalog__menu-link" href="https://care-instruction.kadaver.site/">Инструкции</a>
+
+        <a class="catalog__menu-link" href="https://care-simulator.kadaver.site/">Симулятор</a>
+      </div>
+    </div>
+
+
+    <div class="floor__map-box d-n">
+      <h1 class="floor__map-title main__title">
+
+      </h1>
+      <div class="floor__map">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% endblock %}
